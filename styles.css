@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Astral;
+    src: url(font/Gallagher-Shadow.ttf);
+}
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #000025;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #047c72;
+    padding: 10px;
+    position: fixed;
+    border-radius: 0px 0px 20px 0px;
+}
+  
+nav ul {
+    list-style: none;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    color: #fff;
+    font-size: 2em;
+    font-family: Astral;
+    font-weight: 1;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+nav ul li a:hover{
+    color: #fa4747;
+}
+
+.fake-header{
+    background-color: #047c72;
+    padding: 10px;
+}
+
+.top{
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #047c72, #000025);
+}
+
+.principal{
+    text-align: center;
+}
+
+.principal h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal .strong-title{
+    font-family: Astral;
+    font-weight: 1;
+    font-size: 2em;
+}
+
+.about{
+    background-color: #112fc5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.about img{
+    height: 120px;
+    width: auto;
+}
+
+.about p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about a{
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+.about a:hover{
+    color: #000000;
+}
+
+.translations{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #6d5200;
+}
+
+.translations .translations-title{
+    height: 120px;
+    width: auto;
+}
+
+.translations .mangas .covers{
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.contact{
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact img{
+    height: 120px;
+    width: auto;
+}
+
+.contact h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a{
+    color: #fff;
+    font-family: Arial;
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+.contact a:hover{
+    color: #16c3a3;
+}
+
+footer{
+    background-color: #000013;
+    color: #fff;
+    font-family: Arial;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 768px) {
+    
+}
