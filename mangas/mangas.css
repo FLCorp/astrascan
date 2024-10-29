@@ -1,6 +1,6 @@
 @font-face {
     font-family: Astral;
-    src: url(font/Gallagher-Shadow.ttf);
+    src: url(https://flcorp.github.io/astrascan/font/Gallagher-Shadow.ttf);
 }
 
 *{
@@ -67,55 +67,82 @@ nav ul li a:hover{
     font-size: 2em;
 }
 
-.about{
-    background-color: #112fc5;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-}
-
-.about img{
-    height: 120px;
-    width: auto;
-}
-
-.about p{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.about a{
-    color: #fff;
-    text-decoration: underline;
-    transition: 0.3s ease;
-}
-.about a:hover{
-    color: #000000;
-}
-
 .translations{
-    text-align: center;
+    display: flex;
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
     background-color: #6d5200;
 }
 
-.translations .translations-title{
-    height: 120px;
+.translations .covers{
+    height: auto;
     width: auto;
+    height: auto;
+    border-radius: 10px;
 }
 
-.translations .mangas .covers{
-    width: 200px;
-    height: auto;
-    margin-top: 50px;
+.translations .description{
+    margin-left: 20px;
+}
+
+.translations .description h1{
+    margin-top: 0px;
+    color: #fff;
+    font-family: Astral;
+    font-weight: 1;
+    font-size: 3em;
+}
+
+.translations .description p{
+    color: #fff;
+    font-family: Arial;
+}
+
+.chapters{
+    background-color: #047c0a;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.chapters h2{
+    color: #fff;
+    font-family: Astral;
+    font-weight: 1;
+    font-size: 4em;
+    margin-top: 0px;
+}
+
+.chapters .volume{
+    text-align: left;
+}
+
+.chapters .volume h1{
+    color: #fff;
+    font-family: Astral;
+    font-weight: 1;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.chapters .volume button{
+    padding: 10px;
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #1e1e1e;
     border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
     transition: 0.5s ease;
 }
 
-.translations .mangas .covers:hover{
-    opacity: 50%;
+.chapters .volume button:hover{
+    color: #fff;
+    background-color: #1e1e1e;
+    border-color: #fff;
+    border-radius: 20px;
 }
 
 .contact{
