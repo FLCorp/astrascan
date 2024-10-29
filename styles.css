@@ -18,6 +18,7 @@ header {
     padding: 10px;
     position: fixed;
     border-radius: 0px 0px 20px 0px;
+    z-index: 1000;
 }
   
 nav ul {
@@ -112,6 +113,7 @@ nav ul li a:hover{
     margin-top: 50px;
     border-radius: 10px;
     transition: 0.5s ease;
+    margin: 10px;
 }
 
 .translations .mangas .covers:hover{
@@ -155,5 +157,65 @@ footer{
 }
 
 @media screen and (max-width : 768px) {
-    
+    .top img{
+        height: 120px;
+        width: auto;
+    }
+    nav ul li a {
+        font-size: 1.5em;
+    }
+    .about img{
+        height: 80px;
+        width: auto;
+    }
+    .translations .translations-title{
+        height: 80px;
+        width: auto;
+    }
+    .translations .mangas .covers{
+        width: 180px;
+        height: auto;
+    }
+    .contact img{
+        height: 80px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width : 426px){
+    .top img{
+        height: 70px;
+        width: auto;
+    }
+    .about img{
+        height: 40px;
+        width: auto;
+    }
+    .translations .translations-title{
+        height: 40px;
+        width: auto;
+    }
+    .translations .mangas .covers{
+        width: 150px;
+        height: auto;
+    }
+    .contact img{
+        height: 40px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .top img{
+        height: 50px;
+        width: auto;
+    }
+    .translations .translations-title{
+        height: 30px;
+        width: auto;
+    }
+    .translations .mangas .covers{
+        width: 100px;
+        height: auto;
+    }
 }
