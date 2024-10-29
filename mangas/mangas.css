@@ -107,6 +107,11 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.chapters .chapters-title{
+    height: 120px;
+    width: auto;
+}
+
 .chapters h2{
     color: #fff;
     font-family: Astral;
